@@ -1,0 +1,159 @@
+.MovieDiv {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.MovieCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  line-height: 1.5;
+  background-color: #ffffff;
+  width: 80%;
+  padding: 2em;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 1px #6b7177;
+}
+.center {
+  border: 15px solid transparent;
+  text-align: center;
+  }
+.NomBtn {
+  align-self: center;
+  justify-self: right;
+}
+
+.MovieImage {
+  height: 100px;
+  width: auto;
+}
+
+.Button {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 150ms ease;
+  transition-property: background-color, border-color, box-shadow, color;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  background-color: #008060;
+  color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.Button:hover {
+  background-color: #004d3a;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 150ms ease;
+  transition-property: background-color, border-color, box-shadow, color;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.Button:active {
+  background-color: #008060;
+  color: #ffffff;
+  border: 1px solid #008060;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 150ms ease;
+  transition-property: background-color, border-color, box-shadow, color;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.Button:disabled {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 150ms ease;
+  transition-property: background-color, border-color, box-shadow, color;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: default;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .MovieCard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .MovieCard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .MovieCard {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 376px) {
+  .MovieCard {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 280px) {
+  .MovieCard {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+}
